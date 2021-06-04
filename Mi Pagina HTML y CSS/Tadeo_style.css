@@ -1,0 +1,206 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+
+body{
+background-color: white;
+font-family: 'Bebas Neue', cursive;
+color: black;
+margin:0;
+}	
+	
+.pie{
+text-align: center;
+justify-content: space-evenly;
+background: linear-gradient(to right, rgba(35, 63, 165, 1), rgba(18, 36, 102, 1));
+color: white;
+margin:0;
+padding-bottom: 10px;
+border: 1px solid black;
+}
+
+.pie p{
+	color: black;
+}
+
+.pie2{
+	background-color: black;
+	color: white;
+}
+
+.titulo{
+background-color:black;
+color:white;
+margin: auto;
+}
+
+.header{
+	font-family: 'Girassol', cursive;
+	color:white;
+	font-size: 50px;
+	text-align: center;
+	margin-bottom: 60px;
+	
+}
+
+.contenedor2{
+	padding: 60px 0;
+	width: 90%;
+	max-width: 1000px;
+	margin: auto;
+	overflow: hidden;
+	display: flex;
+	justify-content:space-evely;
+	justify-content:center;
+}
+
+.imagen_svg{
+	width:35%;
+	
+}
+
+.contenedor-texto{
+	width:48%;
+	text-align: center;
+}
+
+.contenedor-texto h3{
+	margin-bottom:15px;
+}
+
+.contenedor-texto h3 span{
+	background:blue;
+	color:black;
+	border-radius:50%;
+	display: inline-block;
+	text-align: center;
+	width: 30px;
+	height: 30px;
+	padding: 5px;
+	box-shadow: 0 0 6px 0 rgba(0,0,0.5);
+	margin-right: 5px; 
+}
+
+.contenedor-texto p{
+	padding: 0px, 0px, 30px, 15px;
+	font-weight:300;
+	text-align:justify;
+
+}
+
+header{
+	background:linear-gradient(to right, rgba(35, 63, 165, 0.1), rgba(18, 36, 102, 0.8)), url(wp.jpg);
+	width: 100%;
+	height: 540px;
+	background-size:cover;
+	background-attachment: fixed;
+	position:relative;
+	
+}
+
+.menu{
+	text-align:center;
+	padding: 10px 0;
+	background-color: black;
+}
+
+nav>a{
+	color:white;
+	font-family: artistico;
+	font-weight:300;
+	text-decoration:none;
+	margin-right: 10px;
+}
+
+nav>a:hover{
+	text-decoration: underline;
+}
+
+.portafolio{
+	height:450px;
+	padding: 60px 0;
+	width: 90%;
+	max-width: 1000px;
+	margin: auto;
+	overflow: hidden;
+}
+
+.galeria{
+	display: flex;
+	justify-content: space-evely;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.imagen-port{
+	width: 30%;
+	height: 30%;
+	margin-bottom: 10px;
+}
+
+img{
+	width:90%;
+	height: 300px;
+	object-fit:cover;
+	display: block;
+}
+
+.contenedor{
+	height: 500px;
+	padding: 60px 0;
+	width: 90%;
+	max-width: 1000px;
+	margin: auto;
+	overflow: hidden;	
+}
+
+.wave{
+	position:absolute;
+	bottom:0;
+	width: 100%;
+}
+
+footer{
+	font-family: artistico;
+	padding:60px, 0 3px 0;
+	margin: auto;
+	overflow: hidden;
+	
+}
+
+/*videos*/
+
+.video_forma{
+	background-color: white;
+	padding: 60px 0 30px 0;
+	margin:auto;
+	overflow: hidden;
+	width: 90%;
+}
+
+.video_post{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	width: 60%;
+	margin: auto;
+	display: block;
+}
+
+/*audio*/
+.audio_forma{
+	background-color: white;
+	padding: 60px 0 30px 0;
+	margin:auto;
+	overflow: hidden;
+	width: 90%;
+}
+
+.musica_post{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	width: 60%;
+	margin: auto;
+	display: block;
+}
